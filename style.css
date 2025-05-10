@@ -57,12 +57,12 @@ header {
 header h1 {
     margin-bottom: 10px;
     font-size: 1.8rem;
-    color: #333;
+    color: #ffff;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
 }
 
 .bio {
-    color: #333;
+    color: yellow;
     font-weight: 500;
     max-width: 400px;
     margin-bottom: 20px;
@@ -138,11 +138,29 @@ header h1 {
     background-color: #1877f2;
     color: white;
 }
+.link-button.linktree {
+
+    border-left: 4px solid rgb(31, 242, 24);
+}
+
+
+.link-button.linktree:hover {
+    background-color:rgb(24, 242, 57);
+    color: white;
+    border-left: 4px solid rgb(31, 242, 24);
+}
+
+
+#background{
+    width:100%;
+    position: relative;
+    
+}
 
 /* Footer styling */
 footer {
     text-align: center;
-    color: #333;
+    color: #ffff;
     font-size: 0.8rem;
     margin-top: 20px;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
